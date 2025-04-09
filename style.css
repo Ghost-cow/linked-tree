@@ -93,10 +93,11 @@
         color: var(--orange-clr);
         border:var(--orange-clr) solid 1px;
     }
-    .link:nth-child(2){
-        color: var(--green_clr);
-        border:var(--green_clr) solid 1px;
-    }
+.link:nth-child(2){
+   color: var(--pink_clr);
+   border: var(--pink_clr) solid 1px;
+}
+    
     .link:nth-child(3){
         color: var(--yellow_clr);
         border:var(--yellow_clr) solid 1px;
@@ -105,7 +106,10 @@
         color: var(--blue_clr);
         border:var(--blue_clr) solid 1px;
     }
-    
+    .link:nth-child(5){
+        color: var(--green_clr);
+        border:var(--green_clr) solid 1px;
+    }
   .link:hover {
     background-color: var(--bg_clr_white);
     color: var(--font_clr_dark);
